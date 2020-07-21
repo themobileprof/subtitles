@@ -1,0 +1,488 @@
+﻿1
+00:00:00,000 --> 00:00:02,000
+Linux Commands
+
+2
+00:00:06,471 --> 00:00:08,804
+PWD means Present Working Directory
+
+3
+00:00:09,014 --> 00:00:11,081
+It shows the current directory you're in
+
+4
+00:00:12,786 --> 00:00:14,786
+The 'ping' command
+
+5
+00:00:15,957 --> 00:00:18,257
+Is used to check for internet connectivity
+
+6
+00:00:19,014 --> 00:00:21,014
+ping + 'website URL'
+
+7
+00:00:21,500 --> 00:00:23,633
+The following response indicates
+
+8
+00:00:24,429 --> 00:00:26,762
+That you have internet connectivity
+
+9
+00:00:28,857 --> 00:00:30,857
+Use CTRL+C to stop the response
+
+10
+00:00:31,557 --> 00:00:35,157
+One of the most usefull command is
+
+11
+00:00:40,857 --> 00:00:42,857
+'ls' which means list
+
+12
+00:00:44,286 --> 00:00:47,352
+It lists out the contents of a directory
+
+13
+00:00:50,929 --> 00:00:55,029
+ls -a
+
+14
+00:00:56,171 --> 00:00:59,171
+lists out all hidden directories
+
+15
+00:00:59,386 --> 00:01:02,453
+(hidden files have a dot at the beginning)
+
+16
+00:01:05,500 --> 00:01:13,200
+ls -l
+
+17
+00:01:14,714 --> 00:01:18,214
+lists out details about each item
+
+18
+00:01:18,614 --> 00:01:21,714
+in the directory
+
+19
+00:01:24,886 --> 00:01:30,186
+ls -al
+
+20
+00:01:31,671 --> 00:01:35,638
+lists out both hidden and unhidden files
+
+21
+00:01:35,871 --> 00:01:39,871
+including all their details
+
+22
+00:01:40,095 --> 00:01:43,195
+The next command is
+
+23
+00:01:43,700 --> 00:01:45,700
+cd
+
+24
+00:01:46,929 --> 00:01:49,929
+which stands for Change Directory
+
+25
+00:01:50,553 --> 00:01:53,753
+cd + 'directory path'
+
+26
+00:01:56,071 --> 00:01:59,471
+'cd storage' changes directory to
+
+27
+00:02:00,714 --> 00:02:03,794
+the  /storage directory
+
+28
+00:02:04,729 --> 00:02:06,809
+To return back to your
+
+29
+00:02:07,814 --> 00:02:09,414
+previous directory, type
+
+30
+00:02:12,357 --> 00:02:15,357
+cd ..
+
+31
+00:02:17,529 --> 00:02:21,029
+you can cd into your default storage
+
+32
+00:02:22,071 --> 00:02:25,351
+on your android device
+
+33
+00:02:32,714 --> 00:02:36,048
+ located in the /storage/shared directory
+
+34
+00:02:37,714 --> 00:02:40,781
+To return to the home directory
+
+35
+00:02:43,043 --> 00:02:49,583
+type cd ../..
+
+36
+00:02:50,043 --> 00:02:53,010
+ use the up arrow key on your keyboard
+
+37
+00:02:53,629 --> 00:02:55,696
+to go to your previous codes
+
+38
+00:02:56,143 --> 00:03:04,143
+cd ~ (tild symbol)
+
+39
+00:03:04,357 --> 00:03:10,757
+also returns to the home directory
+
+40
+00:03:16,043 --> 00:03:23,243
+cd - (hyphen symbol)
+
+41
+00:03:23,314 --> 00:03:28,314
+displays your current path
+
+42
+00:03:30,086 --> 00:03:33,186
+Type 'ls'
+
+43
+00:03:33,514 --> 00:03:35,514
+to list out all the contents of /shared
+
+44
+00:03:35,538 --> 00:03:37,538
+directory which is also the
+
+45
+00:03:37,562 --> 00:03:44,262
+internal storage of your android device
+
+46
+00:03:45,857 --> 00:03:48,990
+Compare the listed content with
+
+47
+00:03:49,014 --> 00:03:52,114
+the actual contents in your file manager
+
+48
+00:03:52,138 --> 00:03:55,838
+to see that they are the same files
+
+49
+00:03:56,162 --> 00:03:58,662
+This means that you can access
+
+50
+00:03:58,686 --> 00:04:01,186
+your file manager from your
+
+51
+00:04:01,310 --> 00:04:04,310
+termux terminal
+
+52
+00:04:07,214 --> 00:04:10,214
+You can list out the contents of
+
+53
+00:04:10,238 --> 00:04:13,238
+the home directory from your
+
+54
+00:04:13,362 --> 00:04:18,862
+current directory using 'ls ~'
+
+55
+00:04:20,143 --> 00:04:22,223
+mkdir is the command for
+
+56
+00:04:22,247 --> 00:04:25,447
+making a new directory
+
+57
+00:04:26,871 --> 00:04:31,871
+mkdir + 'new directory'
+
+58
+00:04:34,643 --> 00:04:36,823
+Go to your file manager
+
+59
+00:04:36,847 --> 00:04:40,347
+to see the new folder you created
+
+60
+00:04:42,286 --> 00:04:45,286
+Open the new folder and create
+
+61
+00:04:45,310 --> 00:04:48,810
+another new folder manually
+
+62
+00:04:58,614 --> 00:05:05,914
+Next, check your termux terminal
+
+63
+00:05:06,015 --> 00:05:13,237
+and cd into the directory created on termux
+
+64
+00:05:14,038 --> 00:05:16,038
+type 'ls' to see the new folder you created
+
+65
+00:05:16,162 --> 00:05:19,162
+from your file manager
+
+66
+00:05:19,186 --> 00:05:22,286
+(Note: A folder is called a directory
+
+67
+00:05:22,310 --> 00:05:25,310
+in linux)
+
+68
+00:05:28,786 --> 00:05:36,786
+Return to the home directory
+
+69
+00:06:10,210 --> 00:06:15,210
+Try to make a sub directory
+
+70
+00:06:15,234 --> 00:06:20,734
+inside the sub directory of the
+
+71
+00:06:20,758 --> 00:06:27,158
+new directory you previously created
+
+72
+00:06:53,082 --> 00:06:56,082
+An error is encountered because
+
+73
+00:06:56,106 --> 00:06:59,106
+a sub-directory cannot be created without
+
+74
+00:06:59,130 --> 00:07:01,130
+a parent directory
+
+75
+00:07:01,400 --> 00:07:06,400
+mkdir -p (parent flag)
+
+76
+00:07:06,524 --> 00:07:10,524
+creates the parent directories and
+
+77
+00:07:10,648 --> 00:07:16,848
+the sub directories
+
+78
+00:07:22,186 --> 00:07:24,186
+List out the contents of the sub-directory
+
+79
+00:07:24,210 --> 00:07:31,210
+you just created to view your new
+
+80
+00:07:38,134 --> 00:07:45,134
+sub-directory
+
+81
+00:07:56,114 --> 00:08:04,114
+From the home directory, create a new
+
+82
+00:08:04,138 --> 00:08:12,138
+directory inside your device storage
+
+83
+00:08:26,062 --> 00:08:34,062
+create it inside the folder that was
+
+84
+00:08:34,086 --> 00:08:42,086
+previously created
+
+85
+00:08:45,343 --> 00:08:48,510
+Next, open your file manager
+
+86
+00:08:49,334 --> 00:08:53,334
+to see the new folder you just created
+
+87
+00:08:56,029 --> 00:09:01,029
+From the home directory, you'll create
+
+88
+00:09:01,053 --> 00:09:06,053
+a hidden folder inside your device
+
+89
+00:09:06,077 --> 00:09:11,077
+internal storage
+
+90
+00:09:31,071 --> 00:09:34,071
+N.B: You can use the tab key to
+
+91
+00:09:34,095 --> 00:09:37,095
+autocomplete the names of directories
+
+92
+00:09:44,071 --> 00:09:48,205
+Adding a dot before a directory makes
+
+93
+00:09:48,229 --> 00:09:52,229
+it to become a hidden directory
+
+94
+00:09:55,143 --> 00:09:58,710
+Check your file manager to see
+
+95
+00:09:58,734 --> 00:10:02,534
+the hidden directory created
+
+96
+00:10:03,214 --> 00:10:06,914
+N.B: If you can't view the hidden folders,
+
+97
+00:10:06,938 --> 00:10:11,538
+go to the options that shows hidden folders
+
+98
+00:10:35,857 --> 00:10:39,924
+The 'touch' command is used to
+
+99
+00:10:39,948 --> 00:10:43,948
+create new files
+
+100
+00:10:48,100 --> 00:10:53,033
+Use the 'ls' command to view the new file
+
+101
+00:10:57,071 --> 00:11:05,071
+Create a new file in your internal storage
+
+102
+00:11:32,286 --> 00:11:39,552
+Go to your file manager to see the new file
+
+103
+00:11:54,071 --> 00:11:58,038
+Also create a new hidden file also in your
+
+104
+00:11:58,062 --> 00:12:01,462
+internal storage
+
+105
+00:12:03,500 --> 00:12:07,500
+Remember to add a dot to hide a file
+
+106
+00:12:49,786 --> 00:12:53,786
+rm (remove) is used to delete a file
+
+107
+00:12:57,357 --> 00:13:04,690
+rm + 'path of file to delete'
+
+108
+00:13:07,000 --> 00:13:12,000
+Delete the last hidden file created in
+
+109
+00:13:12,024 --> 00:13:17,024
+your internal storage
+
+110
+00:13:26,500 --> 00:13:30,000
+Check your file manager to see that the
+
+111
+00:13:30,024 --> 00:13:33,824
+file is deleted
+
+112
+00:14:16,143 --> 00:14:19,943
+rm cannot delete a directory but
+
+113
+00:14:19,967 --> 00:14:23,967
+will result in an error
+
+114
+00:14:32,071 --> 00:14:37,138
+Instead a recursive flag is used after 'rm'
+
+115
+00:14:40,562 --> 00:14:44,562
+rm -R 'path to directory'
+
+116
+00:14:45,214 --> 00:14:48,294
+Check your file manager to confirm
+
+117
+00:14:49,318 --> 00:14:53,918
+that the folders are successfully deleted
+
+118
+00:15:00,042 --> 00:15:08,042
+Also confirm on your terminal using 'ls'
+
+119
+00:15:22,929 --> 00:15:27,329
+Clear command clears the terminal
+
+120
+00:18:56,714 --> 00:19:04,694
+cp is the command to copy a file
+
+121
+00:19:15,714 --> 00:19:22,414
+cp -r is used to copy a directory
+
+122
+00:20:03,500 --> 00:20:08,333
+mv is the command to move a file
+
